@@ -1,0 +1,9 @@
+[package]
+name = "empvee-paper"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+gtk = { version = "0.9.6", package = "gtk4" }
+# For file dialogs and path handling
+glib = "0.20.10"
